@@ -1,0 +1,149 @@
+/* ==========================================
+   CODE OF CONDUCT – FANCY POLICY PAGE
+========================================== */
+
+.conduct-section{
+  padding:var(--section-padding);
+  background:var(--off-white);
+}
+
+.conduct-section .container{
+  max-width:1300px;
+  margin:auto;
+}
+
+/* MAIN TITLE */
+
+.conduct-title-main{
+  text-align:center;
+  margin-bottom:60px;
+}
+
+.conduct-title-main h1{
+  font-size:42px;
+  color:var(--primary);
+  margin-bottom:10px;
+}
+
+.conduct-title-main p{
+  color:var(--text-muted);
+  max-width:700px;
+  margin:auto;
+}
+
+/* GRID LAYOUT */
+
+.conduct-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:36px;
+  column-count:2;
+  column-gap:36px;
+}
+
+/* POLICY CARD */
+
+.conduct-card{
+  background:var(--white);
+  border-radius:14px;
+  padding:36px 34px;
+  border:1px solid var(--border);
+  box-shadow:0 12px 30px rgba(0,0,0,0.05);
+  transition:var(--ease);
+  position:relative;
+  display:inline-block;
+  width:100%;
+  margin-bottom:36px;
+  break-inside:avoid;
+}
+
+.conduct-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 18px 45px rgba(0,0,0,0.08);
+}
+
+/* CARD TITLES */
+
+.conduct-card h2{
+  font-size:24px;
+  color:var(--primary-dark);
+  margin-bottom:16px;
+  padding-left:14px;
+  border-left:5px solid var(--accent);
+}
+
+/* SUB TITLES */
+
+.conduct-card h3{
+  font-size:18px;
+  color:var(--primary-mid);
+  margin:20px 0 10px;
+}
+
+/* PARAGRAPH */
+
+.conduct-card p{
+  color:var(--text-body);
+  line-height:1.7;
+  margin-bottom:10px;
+}
+
+/* LIST */
+
+.conduct-card ol{
+  counter-reset:item;
+  padding-left:0;
+}
+
+.conduct-card ol li{
+  list-style:none;
+  margin-bottom:12px;
+  display:flex;
+  gap:12px;
+  line-height:1.7;
+}
+
+/* NUMBER BADGE */
+
+.conduct-card ol li::before{
+  counter-increment:item;
+  content:counter(item);
+  min-width:28px;
+  height:28px;
+  border-radius:50%;
+  background:var(--primary-light);
+  color:var(--white);
+  font-size:13px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:600;
+  margin-top:3px;
+}
+
+/* SUB LIST */
+
+.conduct-card ul{
+  margin-top:10px;
+  padding-left:22px;
+}
+
+.conduct-card ul li{
+  list-style:disc;
+  margin-bottom:6px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1000px){
+
+.conduct-grid{
+  grid-template-columns:1fr;
+  column-count:1;
+}
+
+.conduct-title-main h1{
+  font-size:32px;
+}
+
+}

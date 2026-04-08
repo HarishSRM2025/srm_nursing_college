@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SRM Trichy College of Nursing</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&family=Dancing+Script:wght@600;700&family=Playfair+Display:ital,wght@0,700;0,800;1,600;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="fav icon" href="./assets/images/fav.png">
+<link rel="stylesheet" href="./assets/css/common/rootvalue.css">
+<link rel="stylesheet" href="./assets/css/common/header_footer.css">
+<link rel="stylesheet" href="./assets/css/pages/academics.css">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="tb-left">
+    <span><i class="fa-solid fa-phone-volume"></i>&nbsp;+91 431-2516609</span>
+    <a href="#"><i class="fa-regular fa-envelope"></i>&nbsp;<span>srm_nursing@gmail.com</span></a>
+    <span><i class="fa-regular fa-clock"></i>&nbsp;Mon–Sat 9:00 AM – 5:00 PM</span>
+  </div>
+  <div class="tb-right">
+    <a href="#" class="tb-pill"><i class="fa-solid fa-user"></i>Student Portal</a>
+    <a href="#" class="tb-pill"><i class="fa-solid fa-lock"></i>Staff Login</a>
+    <a href="#" class="tb-pill">NAAC</a>
+    <a href="#" class="tb-apply"><i class="fa-solid fa-arrow-right"></i> Apply Now</a>
+  </div>
+</div>
+<div class="myDiv">
+  <div class="logo-bar">
+    <div class="logo-badge">
+      <a href="#" class="nav-logo center-logo">
+        <img src="./assets/images/logo.png" alt="">
+      </a>
+    </div>
+</div>
+<nav id="navbar">
+ 
+
+<ul class="nav-links">
+
+    <li><a href="index.html">Home</a></li>
+    <!-- ADMINISTRATION -->
+    <li>
+      <a  class="active" href="#">Administration <i class="fa-solid fa-chevron-down chevron"></i></a>
+      <div class="dropdown">
+        <a href="#"><i class="fa-solid fa-sitemap"></i> Organization Chart</a>
+        <a href="#"><i class="fa-solid fa-scale-balanced"></i> Statutory Bodies</a>
+        <a href="codeofconduct.html"><i class="fa-solid fa-file-lines"></i> Code of Conduct</a>
+      </div>
+    </li>
+    <!-- ACADEMICS -->
+    <li>
+      <a href="#">Academics <i class="fa-solid fa-chevron-down chevron"></i></a>
+      <div class="dropdown">
+        <a href="#"><i class="fa-solid fa-user-check"></i> Admission</a>
+        <a href="#"><i class="fa-solid fa-pen-to-square"></i> Application</a>
+        <a href="#"><i class="fa-solid fa-graduation-cap"></i> Courses Offered</a>
+        <a href="#"><i class="fa-solid fa-calendar-days"></i> Academic Calendar</a>
+        <a href="#"><i class="fa-solid fa-award"></i> Awards</a>
+      </div>
+    </li>
+
+    <!-- CLINICAL FACILITIES -->
+    <li>
+      <a href="#">Clinical Facilities <i class="fa-solid fa-chevron-down chevron"></i></a>
+      <div class="dropdown">
+        <a href="#"><i class="fa-solid fa-hospital"></i> Hospital Facilities</a>
+        <a href="#"><i class="fa-solid fa-house-medical"></i> Community Settings</a>
+        <a href="#"><i class="fa-solid fa-kit-medical"></i> Outreach Camp</a>
+      </div>
+    </li>
+
+    <!-- DEPARTMENTS -->
+    <li>
+      <a href="#">Departments <i class="fa-solid fa-chevron-down chevron"></i></a>
+      <div class="dropdown">
+        <a href="#"><i class="fa-solid fa-stethoscope"></i> Fundamentals of Nursing</a>
+        <a href="#"><i class="fa-solid fa-user-doctor"></i> Adult Health Nursing</a>
+        <a href="#"><i class="fa-solid fa-house-chimney-medical"></i> Community Health Nursing</a>
+        <a href="#"><i class="fa-solid fa-baby"></i> Child Health Nursing</a>
+        <a href="#"><i class="fa-solid fa-brain"></i> Mental Health Nursing</a>
+        <a href="#"><i class="fa-solid fa-venus"></i> OBG Nursing</a>
+      </div>
+    </li>
+
+    <!-- FACILITIES -->
+    <li>
+      <a href="#">Facilities <i class="fa-solid fa-chevron-down chevron"></i></a>
+      <div class="dropdown">
+
+        <a href="#"><i class="fa-solid fa-chalkboard"></i> Class Room</a>
+
+        <a href="#"><i class="fa-solid fa-building"></i> Multi Purpose Hall</a>
+
+        <a href="#"><i class="fa-solid fa-book"></i> Library</a>
+
+        <a href="#"><i class="fa-solid fa-flask"></i> Laboratory</a>
+
+        <a href="#"><i class="fa-solid fa-futbol"></i> Sports</a>
+
+        <a href="#"><i class="fa-solid fa-music"></i> Cultural</a>
+
+        <a href="#"><i class="fa-solid fa-bus"></i> Transport</a>
+
+        <a href="#"><i class="fa-solid fa-bed"></i> Hostel</a>
+
+        <a href="#"><i class="fa-solid fa-utensils"></i> Canteen</a>
+
+      </div>
+    </li>
+
+    <li><a href="#">Research</a></li>
+
+    <li><a href="#">Committees</a></li>
+
+    <li><a href="#">Placement</a></li>
+
+    <li><a href="#">Associations</a></li>
+
+    <li><a href="#">News</a></li>
+
+    <li><a href="#">Events</a></li>
+
+  </ul>
+
+
+
+
+  <div class="hamburger" onclick="toggleMobileNav()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+</div>
+<div class="mobile-overlay" id="mobileOverlay" onclick="toggleMobileNav()"></div>
+<div class="mobile-nav" id="mobileNav">
+
+  <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+
+  <!-- ADMINISTRATION -->
+  <div class="mobile-group">
+    <a href="#" onclick="toggleSubmenu(event)">
+      Administration <i class="fa-solid fa-chevron-down chevron"></i>
+    </a>
+    <div class="dropdown">
+      <a href="#"><i class="fa-solid fa-sitemap"></i> Organization Chart</a>
+      <a href="#"><i class="fa-solid fa-scale-balanced"></i> Statutory Bodies</a>
+      <a href="#"><i class="fa-solid fa-file-lines"></i> Code of Conduct</a>
+    </div>
+  </div>
+
+  <!-- ACADEMICS -->
+  <div class="mobile-group">
+    <a href="#" onclick="toggleSubmenu(event)">
+      Academics <i class="fa-solid fa-chevron-down chevron"></i>
+    </a>
+    <div class="dropdown">
+      <a href="#"><i class="fa-solid fa-user-check"></i> Admission</a>
+      <a href="#"><i class="fa-solid fa-pen-to-square"></i> Application</a>
+      <a href="#"><i class="fa-solid fa-graduation-cap"></i> Courses Offered</a>
+      <a href="#"><i class="fa-solid fa-calendar-days"></i> Academic Calendar</a>
+      <a href="#"><i class="fa-solid fa-award"></i> Awards</a>
+    </div>
+  </div>
+
+  <!-- CLINICAL -->
+  <div class="mobile-group">
+    <a href="#" onclick="toggleSubmenu(event)">
+      Clinical Facilities <i class="fa-solid fa-chevron-down chevron"></i>
+    </a>
+    <div class="dropdown">
+      <a href="#"><i class="fa-solid fa-hospital"></i> Hospital Facilities</a>
+      <a href="#"><i class="fa-solid fa-house-medical"></i> Community Settings</a>
+      <a href="#"><i class="fa-solid fa-kit-medical"></i> Outreach Camp</a>
+    </div>
+  </div>
+
+  <!-- DIRECT LINKS -->
+  <a href="#"><i class="fa-solid fa-flask"></i> Research</a>
+  <a href="#"><i class="fa-solid fa-users"></i> Committees</a>
+  <a href="#"><i class="fa-solid fa-briefcase"></i> Placement</a>
+  <a href="#"><i class="fa-solid fa-calendar"></i> Events</a>
+
+  <a href="#" class="mobile-apply">
+    <i class="fa-solid fa-arrow-right"></i> Apply Now 2025–26
+  </a>
+
+</div>
+<section class="breadcrumb">
+  <div class="breadcrumb-container">
+    
+    <h1 class="breadcrumb-title">Academic Information</h1>
+
+    <div class="breadcrumb-nav">
+      <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+      <span class="bc-sep"><i class="fa-solid fa-angle-right"></i></span>
+      <span class="bc-active">Academic Information</span>
+    </div>
+
+  </div>
+</section>
+<section class="acad-section">
+  <div class="acad-container">
+    <div class="acad-title-main">
+      <h1>SRM Trichy College of Nursing</h1>
+      <p>Academic Information</p>
+    </div>
+    <div class="acad-grid">
+      <!-- ADMISSION -->
+      <div class="acad-card">
+      <h2>Admission</h2>
+
+      <p>Application forms for College and Hostel are available through online submission.</p>
+
+      <div class="acad-download">
+      📂 Admission Folder / Application Details – Sent through Mail
+      </div>
+
+      </div>
+
+      <!-- COURSES OFFERED -->
+      <div class="acad-card">
+      <h2>Courses Offered</h2>
+
+      <ul>
+      <li>DGNM</li>
+      <li>B.Sc. Nursing</li>
+      <li>M.Sc. Nursing</li>
+      </ul>
+
+      </div>
+
+      <!-- DGNM -->
+      <div class="acad-card">
+
+      <h2>DGNM</h2>
+
+      <h3>Programme Duration</h3>
+      <p>3 Years Programme</p>
+
+      <h3>Admission Criteria</h3>
+
+      <ul>
+      <li><strong>Age:</strong> 17 years on or before December 31</li>
+
+      <li><strong>Qualification:</strong>
+      10+2 with English and minimum 40% marks in qualifying examination from recognized board
+      </li>
+
+      <li><strong>Gender:</strong> Only Females</li>
+
+      </ul>
+
+      </div>
+
+      <!-- BSC NURSING -->
+      <div class="acad-card">
+
+      <h2>B.Sc. Nursing</h2>
+
+      <h3>Programme Duration</h3>
+      <p>4 Years Programme</p>
+
+      <h3>Admission Criteria</h3>
+
+      <ul>
+
+      <li><strong>Age:</strong> 17 years on or before December 31</li>
+
+      <li>
+      <strong>Qualification:</strong>
+      10+2 with Science (PCB) & English with minimum 45% marks from AISSCE / CBSE / ICSE / SSCE / HSCE or equivalent board
+      </li>
+
+      <li><strong>Gender:</strong> Both Male and Female</li>
+
+      </ul>
+
+      </div>
+
+      <!-- MSC NURSING -->
+      <div class="acad-card">
+
+      <h2>M.Sc. Nursing</h2>
+
+      <h3>Programme Duration</h3>
+      <p>2 Years Programme</p>
+
+      <h3>Clinical Specialities</h3>
+
+      <ul class="acad-speciality">
+      <li>Medical Surgical Nursing <span>5 Seats</span></li>
+      <li>Obstetric & Gynaecological Nursing <span>2 Seats</span></li>
+      <li>Paediatric (Child Health) Nursing <span>3 Seats</span></li>
+      <li>Psychiatric (Mental Health) Nursing <span>2 Seats</span></li>
+      <li>Community Health Nursing <span>2 Seats</span></li>
+      </ul>
+
+      <h3>Admission Criteria</h3>
+
+      <ol>
+
+      <li>Candidate should be a Registered Nurse and Registered Midwife or equivalent.</li>
+
+      <li>
+      Minimum qualification:
+      B.Sc Nursing / B.Sc Hons Nursing / Post Basic B.Sc Nursing with minimum 55% aggregate.
+      </li>
+
+      <li>Candidate should have completed the required nursing degree programme.</li>
+
+      <li>Minimum one year work experience after Basic B.Sc Nursing.</li>
+
+      <li>
+      Minimum one year work experience prior or after Post Basic B.Sc Nursing.
+      </li>
+
+      </ol>
+
+      </div>
+
+      <!-- ACADEMIC CALENDAR -->
+      <div class="acad-card">
+
+      <h2>Academic Calendar</h2>
+
+      <div class="acad-download">
+      📂 Academic Calendar – Folder sent through Mail
+      </div>
+
+      <br><br>
+
+      <h2>CNE</h2>
+
+      <p>
+      Continuing Nursing Education programmes are conducted regularly to update nursing professionals with current clinical practices, research developments and healthcare innovations.
+      </p>
+
+      <p>
+      These programmes help nurses improve clinical competency, patient care standards and professional knowledge through seminars, workshops and training sessions.
+      </p>
+
+        <br>
+        <h2>Awards</h2>
+
+        <ul>
+
+        <li>College Awards</li>
+
+        <li>Faculty Awards</li>
+
+        <li>Student Awards</li>
+
+        </ul>
+
+        <div class="acad-download">
+        📂 Award details – Sent through Mail
+        </div>
+
+        </div>
+
+      </div>
+
+      <!-- AWARDS -->
+      
+    </div>
+  </div>
+</section>
+<!-- FOOTER -->
+<footer>
+  <!-- Alert bar matching screenshot -->
+  <div class="footer-alert">
+    <p><i class="fa-solid fa-bell"></i> Admissions Open for 2025 — Limited Seats Available! &nbsp;·&nbsp; TNNMC Approved &nbsp;·&nbsp; Green Campus Certified</p>
+    <a href="#" class="fa-apbtn"><i class="fa-solid fa-arrow-right"></i> Apply Now</a>
+  </div>
+
+  <!-- Main footer columns matching screenshot -->
+  <div class="footer-main">
+    <!-- Brand -->
+    <div class="footer-brand">
+      <a href="#" class="footer-logo-row">
+        <div class="fl-badge"><i class="fa-solid fa-heart-pulse"></i></div>
+        <div class="fl-txt"><div class="fl-srm">SRM Trichy</div><div class="fl-sub">College of Nursing</div></div>
+      </a>
+      <p>To prepare students of our Nursing College to become empathetic and compassionate health care providers and transform the lives of people in our ecosystem.</p>
+      <div class="f-social">
+        <a class="f-soc" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a class="f-soc" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a class="f-soc" href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a class="f-soc" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a class="f-soc" href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-col">
+      <div class="fcol-title">Quick Links</div>
+      <ul>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Departments</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Events</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Gallery</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Nursing Depts -->
+    <div class="footer-col">
+      <div class="fcol-title">Nursing Depts.</div>
+      <ul>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Department of Nursing</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Midwifery & Obstetrics</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Community Nursing</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> B.Sc Nursing</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Recruitment & Admissions</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-col">
+      <div class="fcol-title">Contact</div>
+      <ul class="fcont-list">
+        <li><div class="fci"><i class="fa-solid fa-location-dot"></i></div><span>Irungalur, Tiruchirappalli, TN</span></li>
+        <li><div class="fci"><i class="fa-solid fa-phone"></i></div><a href="#">0431-2516609</a></li>
+        <li><div class="fci"><i class="fa-solid fa-envelope"></i></div><a href="#"><span class="__cf_email__" data-cfemail="a3c2c7cecad0d0cacccdd0e3cdc08ed0d1ce8dc6c7d68dcacd">[email&#160;protected]</span></a></li>
+        <li><div class="fci"><i class="fa-brands fa-facebook-f"></i></div><a href="#">Facebook Page</a></li>
+        <li><div class="fci"><i class="fa-brands fa-instagram"></i></div><a href="#">Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+
+   <div class="footer-bottom">
+    <p>© 2025 SRM Trichy College of Nursing. All Rights Reserved.</p>
+    <div class="fbot-accred">
+      <span class="acc-badge"><i class="fa-solid fa-shield-halved"></i> INC Approved</span>
+      <span class="acc-badge"><i class="fa-solid fa-leaf"></i> Green Campus</span>
+      <span class="acc-badge"><i class="fa-solid fa-star"></i> NAAC Accredited</span>
+    </div>
+    <div class="fbot-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Sitemap</a>
+    </div>
+  </div>
+</footer>
+
+<script src="./assets/js/script.js"></script>
+</body>
+</html>

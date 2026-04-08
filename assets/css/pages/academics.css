@@ -1,0 +1,103 @@
+/* ======================================
+   ACADEMIC PAGE
+====================================== */
+
+.acad-section{
+padding:var(--acad-section-padding);
+background:var(--acad-soft);
+}
+
+.acad-container{
+max-width:1300px;
+margin:auto;
+}
+
+/* TITLE */
+
+.acad-title-main{
+text-align:center;
+margin-bottom:60px;
+}
+
+.acad-title-main h1{
+font-size:40px;
+color:var(--acad-primary);
+margin-bottom:10px;
+}
+
+.acad-title-main p{
+color:#666;
+font-size:16px;
+}
+
+/* GRID */
+
+.acad-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(520px,1fr));
+gap:30px;
+}
+
+/* CARD */
+
+.acad-card{
+background:var(--acad-bg);
+padding:30px;
+border-radius:var(--acad-radius);
+box-shadow:var(--acad-shadow);
+border:1px solid var(--acad-border);
+}
+
+.acad-card h2{
+color:var(--acad-primary);
+margin-bottom:15px;
+font-size:22px;
+}
+
+.acad-card h3{
+margin-top:18px;
+margin-bottom:8px;
+font-size:18px;
+color:var(--acad-primary-dark);
+}
+
+.acad-card p{
+color:var(--acad-text);
+line-height:1.6;
+}
+
+.acad-card ul,
+.acad-card ol{
+padding-left:18px;
+margin-top:10px;
+}
+
+.acad-card li{
+margin-bottom:6px;
+line-height:1.5;
+color:var(--acad-text);
+}
+
+/* SPECIALITY LIST */
+
+.acad-speciality{
+margin-top:10px;
+}
+
+.acad-speciality li{
+display:flex;
+justify-content:space-between;
+border-bottom:1px dashed var(--acad-border);
+padding:4px 0;
+}
+
+/* DOWNLOAD BOX */
+
+.acad-download{
+margin-top:10px;
+padding:14px;
+background:#fafafa;
+border:1px dashed var(--acad-border);
+border-radius:6px;
+font-size:14px;
+}
