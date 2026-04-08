@@ -10,11 +10,11 @@
   --primary-mid:#5a3db5;
   --primary-light:#4e28c9;
 
-  --accent:#bad32b;
+  --accent:#cd2bd3;
   --accent-vivid:#0f8b8f;
 
-  --gold:#c6e420;
-  --gold-light:#bad32b;
+  --gold:#ffbde2;
+  --gold-light:#ffceef;
 
   --teal:#0ea5a4;
   --green:#22c55e;
@@ -29,7 +29,7 @@
 
   --border:#e5defc;
 
-  --orange:#f6c949;
+  --orange:#f6deff;
 
   --main-bg-badge:#f59e0b1f;
   --main-bg-badge-border:#f59e0b66;
@@ -52,7 +52,7 @@
   /* Typography */
   --font-main:'Poppins',sans-serif;
   --font-cursive:'Dancing Script',cursive;
-  --font-serif:"Turret Road",sans-serif;
+  --font-serif:"Montserrat Alternates", sans-serif;
 
   /* Motion */
   --ease:0.3s cubic-bezier(0.4,0,0.2,1);

@@ -23,14 +23,19 @@
 .myDiv { position: sticky; top: 0; z-index: 1000; }
 
 .logo-bar { display: flex; justify-content: center; align-items: center; padding: 5px 5%; background: var(--white); border-bottom: 1px solid var(--border); }
-.logo-badge img { width: 180px; }
+.logo-badge img,.footer-logo-row img { width: 180px; }
 .center-logo { gap: 14px; }
 .center-logo .logo-txt .brand-srm  { font-size: 28px; }
 .center-logo .logo-txt .brand-sub  { font-size: 11px; letter-spacing: .22em; text-align: center; }
 .nav-logo { display: flex; align-items: center; gap: 12px; text-decoration: none; overflow: hidden; }
 .logo-txt .brand-srm { font-family: var(--font-main); font-size: 23px; font-weight: 600; color: var(--primary); line-height: 1; letter-spacing: -.4px; }
 .logo-txt .brand-sub { font-size: 10px; text-transform: uppercase; letter-spacing: .19em; color: var(--text-muted); font-weight: 500; margin-top: 2px; }
-
+.footer-logo-row {
+   background-color: #fff;
+   padding: 5px;
+   border-radius: 10px;
+   width: fit-content;
+}
 nav {
   z-index: 1000;
   background: linear-gradient(90deg, var(--gold), var(--orange));

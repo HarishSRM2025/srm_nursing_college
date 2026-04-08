@@ -74,7 +74,7 @@ section { padding: var(--section-padding); }
   padding: var(--section-padding);
   position: relative;
   overflow: hidden;
-  background: url(../../images/bg1.png),linear-gradient(var(--light-bg),var(--light-bg));
+  background: url(../../images/bg.png),linear-gradient(var(--light-bg),var(--light-bg));
   background-attachment:fixed;
   background-size:cover;
   background-position:center;
@@ -244,7 +244,7 @@ section { padding: var(--section-padding); }
   display:flex;
   flex-direction:column;
   gap:80px;
-  background:url(../../images/bg1.png),linear-gradient(
+  background:url(../../images/bg.png),linear-gradient(
     135deg,
     #f8f9ff 0%,
     #eef1ff 100%
